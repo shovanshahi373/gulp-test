@@ -21,7 +21,6 @@ gulp.task("default", function () {
     .pipe(
       replace(pattern, function (match) {
         const val = envVariables[match];
-        console.log({ val }, typeof val);
         return `"${val}"`;
       })
     )
