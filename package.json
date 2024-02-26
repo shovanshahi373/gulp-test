@@ -1,0 +1,24 @@
+{
+  "name": "gulp-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp:staging": "set NODE_ENV=staging && gulp",
+    "gulp:build": "set NODE_ENV=production && gulp",
+    "start": "serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "gulp": "^4.0.2",
+    "gulp-env": "^0.4.0",
+    "gulp-if": "^3.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.4",
+    "gulp-template": "^6.0.0",
+    "gulp-uglify": "^3.0.2",
+    "serve": "^14.2.1"
+  }
+}
